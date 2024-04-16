@@ -82,7 +82,7 @@ function Remove-Diacritics {
   }
   
   # Küsime kasutajalt, kas soovitakse kasutajaid lisada või kustutada
-  $action = Read-Host "Kas soovite lisada (L) või kustutada (K) kasutajakontod?"
+  $action = Read-Host "Mida soovite kasutajakontodega teha?`n(L) Lisada`n(K) Kustutada"
   
   # Käivitame vastava tegevuse sõltuvalt valikust
   if ($action -eq "L") {
