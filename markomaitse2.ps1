@@ -90,5 +90,5 @@ function Remove-Diacritics {
   } elseif ($action -eq "K") {
       Remove-UserAccounts
   } else {
-      Write-Host "Tundmatu valik! Valige kas L (lisamine) või K (kustutamine)." -ForegroundColor Red
+      Write-Host "Tundmatu valik! Valige kas:`nL (lisamine)`nK (kustutamine)." -ForegroundColor Red
   }
